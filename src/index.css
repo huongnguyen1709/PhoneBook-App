@@ -27,22 +27,11 @@ code {
     monospace;
 }
 
-.grid-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 10%;
-  background-color: #2196F3;
-  padding: 1rem;
-
-  overflow: hidden;
-}
-
 .profile-name {
-  background-color: grey;
+  background-color: #e0e0d1;
   width: 10rem;
   height: 10rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
   border-radius: 50%;
   font-size: 3rem;
 
@@ -59,6 +48,45 @@ code {
   margin-top: 10rem;
 }
 
-.custom-title {
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.card-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+
+.card-subtitle {
+  color: grey;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+}
+
+.user-website {
+  display: block;
+  text-decoration: underline;
+}
+
+.btn {
+  margin: 4rem auto 1.5rem auto;
+  padding: 1.2rem 3.5rem !important;
+  font-size: 1.8rem !important;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border-radius: 1.5rem !important;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.p3 {
+  padding: 3rem;
 }
