@@ -3,11 +3,11 @@ import {
     Card, CardBody,
     CardTitle, CardSubtitle, Col
 } from 'reactstrap';
-import UserButton from '../UserButton';
+import UserButton from '../button/UserButton';
 
 const UserCard = ({ user }) => {
     return (
-        <Col className="mt-5" sm="12" md="4">
+        <Col className="mb-4r" sm="12" md="4">
             <Card className="shadow p-3 mb-5 bg-white rounded">
                 <div className="profile-name">{user.name.charAt(0)}</div>
                 <CardBody>

@@ -3,6 +3,7 @@ import axios from 'axios'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Homepage from './components/homepage/Homepage'
 import UserDetail from './components/userdetail/UserDetails';
+import './sass/main.scss';
 
 function App() {
     const [users, setUsers] = useState([])

@@ -1,0 +1,52 @@
+.mb-4r {
+  margin-bottom: 4rem;
+}
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.ml-2r {
+  margin-left: 2rem;
+}
+
+.btn {
+  margin: 4rem auto 1.5rem auto;
+  padding: 1.2rem 3.5rem !important;
+  font-size: 1.8rem !important;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border-radius: 1.5rem !important;
+}
+
+.list-style-square {
+  list-style-type: square;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.p3 {
+  padding: 3rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+
+.card-subtitle {
+  color: grey;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+}

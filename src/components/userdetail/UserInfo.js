@@ -2,14 +2,14 @@ import React from 'react';
 import {
     Col, Card, CardBody
 } from 'reactstrap';
-import UserButton from '../UserButton';
+import UserButton from '../button/UserButton';
 
 const UserInfo = ({ userInfo }) => {
     return (
         <Col sm="12" md={{ size: 6, offset: 3 }}>
             <Card key={userInfo.id} className="shadow p3 mb-5 bg-white rounded">
                 <CardBody>
-                    <ul style={{ listStyleType: 'square' }}>
+                    <ul className="list-style-square">
                         <li>name: {userInfo.name}</li>
                         <li>username: {userInfo.username}</li>
                         <li>email: {userInfo.email}</li>
@@ -17,7 +17,7 @@ const UserInfo = ({ userInfo }) => {
                         <li>company: {userInfo.company.name}</li>
                         <li>website: {userInfo.website}</li>
                         <li>address:
-                                        <ul style={{ marginLeft: '2rem' }}>
+                                        <ul className="ml-2r">
                                 <li>street: {userInfo.address.street}</li>
                                 <li>suite: {userInfo.address.suite}</li>
                                 <li>city: {userInfo.address.city}</li>
