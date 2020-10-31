@@ -3,7 +3,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About
 
 Integrify-React-Pre-Assignment
 
