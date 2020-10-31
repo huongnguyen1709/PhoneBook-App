@@ -1,0 +1,21 @@
+//MEDIA QUERIY MANAGER
+/* 
+
+0 - 414px:           Mobile
+
+414 - 1024px:        Mobile-landscape, Tablet 
+
+> 1024px: is where our normal styles apply
+
+*/
+
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == mobile {
+        @media (max-width: 414px) { @content }; // 414 px
+    }
+    
+    @if $breakpoint == tablet {
+        @media (max-width: 1024px) { @content }; // 1024 px
+    }
+}

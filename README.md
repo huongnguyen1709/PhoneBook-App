@@ -11,10 +11,10 @@ Integrify-React-Pre-Assignment
 ### Built With
 
 - [React](https://reactjs.org/)
-- [ReactHooks](https://reactjs.org/docs/hooks-intro.html)
-- [ReactRouter](https://reactrouter.com/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React Router](https://reactrouter.com/)
 - [Reactstrap](https://reactstrap.github.io/)
-- [Node-sass](https://www.npmjs.com/package/node-sass)
+- [Node-Sass](https://www.npmjs.com/package/node-sass)
 
 
 <!-- GETTING STARTED -->
@@ -38,6 +38,14 @@ npm install
 ```sh
 npm start
 ```
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+Demo: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 
 

@@ -1,3 +1,5 @@
+@import "mixins";
+
 .mb-4r {
   margin-bottom: 4rem;
 }
@@ -16,6 +18,10 @@
   text-transform: uppercase;
   letter-spacing: .1rem;
   border-radius: 1.5rem !important;
+
+  @include respond(mobile) {
+    font-size: 1.5rem !important;
+  }
 }
 
 .list-style-square {
@@ -25,6 +31,10 @@
 li {
   font-size: 2rem;
   font-weight: 500;
+
+  @include respond(mobile) {
+    font-size: 1.7rem;
+  }
 }
 
 .p3 {
@@ -42,6 +52,11 @@ li {
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 0 !important;
+
+  @include respond(tablet) {
+    font-size: 1.7rem;
+  }
+
 }
 
 .card-subtitle {
